@@ -1,0 +1,46 @@
+Q1. What are primitive data types in java?
+Ans: Primitive data types are-> byte, short, int, long, float, double, boolean, char.
+
+Q2. What are the identifiers in java?
+Ans: Identifier is a name given to a variable, method, class, package,etc. to uniquely identify these element in the source code. Identifier can not be reserved words.
+
+Q3. What is final class in java?
+Ans: 'final' is a keyword and using this if a class is declared, is called final class and it can not be inherited (extends) by another class.
+
+Q4. What are the two ways to make a class final?
+Ans: First way to create a final class is, Using 'final' keyword a class can be declared as final.
+     Second way to create a final class is, By declaring all constructor as private of a class, if constructor of a class is private then it can not be inherited by another class.
+
+Q5. Can we create an instance of final class in another class?
+Ans: Yes, We can create an instance of final class but without inheriting.
+
+Q6. What is volatile keyword used for?
+Ans: 'volatile' keyword is used to indicate that a variable value may be modified by multiple threads concurrently. 
+
+Q7. What is the use of Transient keyword?
+Ans: 'transient' keyword is used to indicate that a field should not be serialized. it is typically used for fields that holds sensitive information, temporary data that is not relevant to 
+     persist across serialization and deserialization.
+
+Q8. What are the types of casting?
+Ans: There are two types of casting-
+	1. Primitive type casting.
+		a> Implicit type casting: Implicit casting or automatic type conversion, occurs when you assign a value of a smaller data type to a variable of a larger data type.
+	 			          Java automatically performs widening conversion if the destination data type can represent, without losing information.
+		
+		b>Explicit type casting:  Explicit casting, occurs when you assign a value of a larger data type to a variable of a smaller data type.
+					  In java it has to be done manually because it may result in loss of precision or information.
+
+	2. Non-primitive type cating: Holding 'child class object' with the help of parent class reference is known as 'Non-primitive' type casting.
+
+Q9. What is boxing and unboxing?
+Ans: Boxing: Wrapping primitive data type content to respective wrapper class is known as "Boxing". 
+     Unboxing: Unwrapping the wrapper class object into respective primitive type is known as "Unboxing".
+
+Q10. What is the difference between keywords, idendifiers and literals in java?
+Ans: Keywords: Keywords are the reserve words that have pre-defined meaning in java programming and it can not be used as idenfiers.
+
+     Identifier: Identifier is given name to the class, package, method, variable etc. 
+    
+     Literals: Literals is a value given to variable or identifiers.
+	 For example: String s="Hello", hello is a string literals.
+		      int value=1;, where 'int' is a keywords (datatype), 'value' is a identifier and '1' is int literals.
